@@ -12,14 +12,14 @@ function Main({dogs}) {
   const average = getAverage(dogs);
   return (
     <main>
-      <h2>Class Average: {average}</h2>
-      <h3>Notable performances and grades:</h3>
+      <h2>Class Average this week: {average}</h2>
+      <h3>Notable performances and grades this week:</h3>
       <ul>
   {dogs.map((dog) => {
     return (
       <li key={dog.name}>
         <span>{dog.name}:</span> {dog.notes}
-        <span>&nbsp; Grade:</span> {dog.grade}
+        <span>&nbsp; Grade for this week:</span> {dog.grade}
       </li>
     );
   })}

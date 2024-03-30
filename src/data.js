@@ -23,6 +23,24 @@ const dogs = [
     grade: "80",
     notes: "It was his first day and he hid under a chair for most of it.",
   },
+  {
+    name: "Joshy",
+    present: true,
+    grade: "46",
+    notes: "He was trying to bite everyone he saw.",
+  },
+  {
+    name: "Spot",
+    present: false,
+    grade: "0",
+    notes: "We did not miss Spot. Spot hid in a bush last time. We kicked him out of the class.",
+  },
+  {
+    name: "Marty",
+    present: false,
+    grade: "100",
+    notes: "He went back to the future.",
+  },
 ];
 
 export default dogs;
